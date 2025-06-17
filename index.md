@@ -841,21 +841,21 @@ systemctl restart apache2
 ---
 #### Initial Site Load and SSL/TLS  
 
-![[SS-01-Homepage-Load.png.png]]
+![image](https://github.com/user-attachments/assets/0be4ed96-662e-4e20-aa40-fe25656fdd30)
 
 ----
 #### Permalinks and Internal Navigation  
 
-![[SS-02-Perma-Links-1.png]]
+![image](https://github.com/user-attachments/assets/d9cadfc6-9f38-4071-b522-659d615a566c)
 
-![[SS-03-Perma-Links-2.png]]
+![image](https://github.com/user-attachments/assets/f7f50cdf-eaa7-490d-bdfe-a6afa0fd3be0)
 
 ---
 #### Plugins and Theme Functionality  
 
-![[Pasted image 20250617004718.png]]
+![image](https://github.com/user-attachments/assets/9fd67f8e-2cbb-4024-80de-0d9e7e6308a8)
 
-![[Pasted image 20250617004746.png]]
+![image](https://github.com/user-attachments/assets/ba41b135-20a1-49f8-a712-3601deaa27f6)
 
 ---
 #### File Permissions  
@@ -864,9 +864,9 @@ systemctl restart apache2
 ls -ld /var/www/html/armour.local/ /var/www/html/armour.local/wp-includes/ /var/www/html/armour.local/.htaccess /var/www/html/armour.local/wp-admin/index.php /var/www/html/armour.local/wp-admin/js/ /var/www/html/armour.local/wp-content/themes/ /var/www/html/armour.local/wp-content/plugins/ /var/www/html/armour.local/wp-admin/ /var/www/html/armour.local/wp-content/ /var/www/html/armour.local/wp-config.php
 ```
 
-![[Pasted image 20250617004347.png]]
+![image](https://github.com/user-attachments/assets/d19da352-0960-4eab-99aa-92c7c4708324)
 
-![[Pasted image 20250617003007.png]]
+![image](https://github.com/user-attachments/assets/dd1d9428-a411-4d64-a5a3-6143f0067634)
 
 ---
 ### Security Hardening Verification Tests
@@ -885,7 +885,7 @@ https://lms.armour.local/?id=1';DROP TABLE users;--
 https://lms.armour.local/?url=javascript:alert('XSS')
 ```
 
-![[Pasted image 20250617005254.png]]
+![image](https://github.com/user-attachments/assets/d183165a-b03e-4765-89c9-6165055a611c)
 
 ---
 #### XML-RPC Endpoint Disabled
@@ -894,7 +894,8 @@ https://lms.armour.local/?url=javascript:alert('XSS')
 https://lms.armour.local/xmlrpc.php
 ```
 
-![[SS-08-XML-RPC.png.png]]
+![image](https://github.com/user-attachments/assets/d6d01adb-a62f-4d82-a3ec-2f2937c765a0)
+
 
 ---
 #### REST API Restriction
@@ -924,41 +925,41 @@ https://lms.armour.local/wp-json/wp/v2/categories
 
 **Unauthorized User:**  
 
-![[Pasted image 20250617005328.png]]
+![image](https://github.com/user-attachments/assets/37d5ab24-c6b1-416b-9214-6ff2cad07443)
 
 **Logged in user:**  
 
-![[Pasted image 20250617005350.png]]
+![image](https://github.com/user-attachments/assets/d4c38a60-4e0f-4d20-a9f8-593cb0da2582)
 
 ---
 #### Two-Factor Authentication (2FA)
 
-![[Pasted image 20250617005531.png]]
+![image](https://github.com/user-attachments/assets/bab30790-d7ee-4c28-a3d9-2017ac3ea995)
 
 ---
 #### Brute-Force Login Attempt Restriction
 
-![[Pasted image 20250617005620.png]]
+![image](https://github.com/user-attachments/assets/b1fc3383-5c4d-45c3-bcaa-273b1fd77a81)
 
-![[Pasted image 20250617005646.png]]
+![image](https://github.com/user-attachments/assets/bbddf6f8-5bdf-40f7-a798-a6385d38fc6d)
 
 ---
 #### IP Blacklisting and Geoblocking
 
 **Blocked IP: 192.168.1.201**  
 
-![[Pasted image 20250617010116.png]]
+![image](https://github.com/user-attachments/assets/f668ff3a-6ff0-4287-a7c5-b66407cf8e5e)
 
-![[Pasted image 20250617010425.png]]
+![image](https://github.com/user-attachments/assets/924d93af-0ae7-44d1-9bc6-5eff2f38177a)
 
 **Blocked Geolocations:**  
 
-![[Pasted image 20250617010533.png]]
+![image](https://github.com/user-attachments/assets/9da877b7-c4b8-49e6-8138-9948ff8d0fb7)
 
 ---
 #### Monitoring and Alert Systems
 
-![[Pasted image 20250617005840.png]]
+![image](https://github.com/user-attachments/assets/89cf001d-0806-494b-a7ce-4209f67f08a3)
 
 Properly configured to send alerts on email.
 
