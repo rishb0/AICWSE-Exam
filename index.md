@@ -7,9 +7,9 @@ title: AICWSA Exam Report
 
 ---
 
-**Rishabh Soni**
-**email@rishabhsoni\.in**
-**17 June 2025**
+- **Rishabh Soni**
+- **email@rishabhsoni\.in**
+- **17 June 2025**
 
 ---
 ## Table of Contents
@@ -740,7 +740,7 @@ Updated strong passwords for `admin` and `armour` users via **Users → Profile*
 - Disable pingback functionality from XML-RPC
 
 ---
-### Disable REST API  Access
+### Disable REST API Access
 
  **Plugin: All-In-One Security (AIOS)**
  
